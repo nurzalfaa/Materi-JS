@@ -4,6 +4,9 @@ var lagi = true;
 while ( lagi) {
 	var nama = prompt('Masukkan nama anda :')
 	alert('Halo ' + nama);
+	
+	var email = prompt('Masukkan email anda :')
+	alert('Anda telah berhasil login !');
   
 	lagi = confirm('coba lagi ?');
 }
