@@ -1,0 +1,8 @@
+var i = 0;
+var len = cars.length;
+
+for (; i < len; ) {
+  text += cars[i] + "<br>";
+  console.log ('length car :' + len );
+  i++;
+}
